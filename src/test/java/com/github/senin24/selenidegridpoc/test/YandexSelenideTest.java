@@ -43,6 +43,7 @@ public class YandexSelenideTest extends BaseTest {
 		for (int i = 1; i < 3; i++) {
 			List<SelenideElement> allwww = $$(By.xpath(allLink));
 			LOG.info(String.format("Page number %s, find %s elements for '%s'", i, allwww.size(), text));
+			screenshot("text_page_" + i);
 			for (SelenideElement e : allwww) {
 				e.shouldBe(visible);
 				www.add(e.getAttribute("href"));
