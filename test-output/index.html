@@ -1,0 +1,3083 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>D:\DATA\git\SeleniumPOC\src\test\resources\com\github\senin24\selenidegridpoc\testng_parallel.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">99 methods,   99 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Guns &#039;n&#039; Roses )">checkSearchYandexTest(Guns 'n' Roses )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Meshuggah)">checkSearchYandexTest(Meshuggah)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Korn )">checkSearchYandexTest(Korn )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Rage Against The Machine)">checkSearchYandexTest(Rage Against The Machine)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Linkin Park )">checkSearchYandexTest(Linkin Park )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Janes Addiction)">checkSearchYandexTest(Janes Addiction)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Ted Nugent)">checkSearchYandexTest(Ted Nugent)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Hate Breed)">checkSearchYandexTest(Hate Breed)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Bon Jovi )">checkSearchYandexTest(Bon Jovi )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Def Leppard)">checkSearchYandexTest(Def Leppard)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Evanescence )">checkSearchYandexTest(Evanescence )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Ratt)">checkSearchYandexTest(Ratt)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Limp Bizkit)">checkSearchYandexTest(Limp Bizkit)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Murderdolls)">checkSearchYandexTest(Murderdolls)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(KISS)">checkSearchYandexTest(KISS)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Disturbed)">checkSearchYandexTest(Disturbed)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Velvet Revolver)">checkSearchYandexTest(Velvet Revolver)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Audioslave)">checkSearchYandexTest(Audioslave)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Metallica)">checkSearchYandexTest(Metallica)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Ozzy Osbourne)">checkSearchYandexTest(Ozzy Osbourne)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Alice Cooper )">checkSearchYandexTest(Alice Cooper )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Iron Maiden )">checkSearchYandexTest(Iron Maiden )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Avenged Sevenfold)">checkSearchYandexTest(Avenged Sevenfold)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Black Label Society)">checkSearchYandexTest(Black Label Society)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Scorpions)">checkSearchYandexTest(Scorpions)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Tool)">checkSearchYandexTest(Tool)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(AFI)">checkSearchYandexTest(AFI)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Lacuna Coil)">checkSearchYandexTest(Lacuna Coil)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Krokus)">checkSearchYandexTest(Krokus)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Lordi)">checkSearchYandexTest(Lordi)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(A Perfect Circle)">checkSearchYandexTest(A Perfect Circle)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Skid Row)">checkSearchYandexTest(Skid Row)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Heaven &amp; Hell)">checkSearchYandexTest(Heaven & Hell)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(AC/DC )">checkSearchYandexTest(AC/DC )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Stone Sour)">checkSearchYandexTest(Stone Sour)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Sevendust)">checkSearchYandexTest(Sevendust)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Queen)">checkSearchYandexTest(Queen)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Dio)">checkSearchYandexTest(Dio)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Saliva)">checkSearchYandexTest(Saliva)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Marilyn Manson)">checkSearchYandexTest(Marilyn Manson)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Mushroomhead)">checkSearchYandexTest(Mushroomhead)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Wolfmother)">checkSearchYandexTest(Wolfmother)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Queensryche )">checkSearchYandexTest(Queensryche )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Twisted Sister)">checkSearchYandexTest(Twisted Sister)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Slayer)">checkSearchYandexTest(Slayer)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Rush )">checkSearchYandexTest(Rush )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Godsmack)">checkSearchYandexTest(Godsmack)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Led Zepplin )">checkSearchYandexTest(Led Zepplin )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(ZZ Top )">checkSearchYandexTest(ZZ Top )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Red Hot Chili Peppers )">checkSearchYandexTest(Red Hot Chili Peppers )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(System Of A Down )">checkSearchYandexTest(System Of A Down )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(WASP )">checkSearchYandexTest(WASP )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Mastodon )">checkSearchYandexTest(Mastodon )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Type O Negative)">checkSearchYandexTest(Type O Negative)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Stone Temple Pilots)">checkSearchYandexTest(Stone Temple Pilots)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Mercyful Fate)">checkSearchYandexTest(Mercyful Fate)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(P O D)">checkSearchYandexTest(P O D)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Staind )">checkSearchYandexTest(Staind )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Quiet Riot)">checkSearchYandexTest(Quiet Riot)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Van Halen )">checkSearchYandexTest(Van Halen )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Cream)">checkSearchYandexTest(Cream)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Deep Purple)">checkSearchYandexTest(Deep Purple)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Dragonforce)">checkSearchYandexTest(Dragonforce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Motorhead )">checkSearchYandexTest(Motorhead )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Nirvana)">checkSearchYandexTest(Nirvana)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Machine head)">checkSearchYandexTest(Machine head)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Judas Priest)">checkSearchYandexTest(Judas Priest)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(The Darkness )">checkSearchYandexTest(The Darkness )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Manowar)">checkSearchYandexTest(Manowar)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Thin Lizzy)">checkSearchYandexTest(Thin Lizzy)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Dokken)">checkSearchYandexTest(Dokken)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Black Sabbath)">checkSearchYandexTest(Black Sabbath)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Mudvayne)">checkSearchYandexTest(Mudvayne)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Alice In Chains)">checkSearchYandexTest(Alice In Chains)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Motley Crue)">checkSearchYandexTest(Motley Crue)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Rolling Stones )">checkSearchYandexTest(Rolling Stones )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(The Who )">checkSearchYandexTest(The Who )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Cradle Of Filth)">checkSearchYandexTest(Cradle Of Filth)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Pearl Jam)">checkSearchYandexTest(Pearl Jam)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Whitesnake)">checkSearchYandexTest(Whitesnake)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Angel )">checkSearchYandexTest(Angel )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Rammstein)">checkSearchYandexTest(Rammstein)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(The Cult )">checkSearchYandexTest(The Cult )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Aerosmith)">checkSearchYandexTest(Aerosmith)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Pink Floyd )">checkSearchYandexTest(Pink Floyd )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Poison )">checkSearchYandexTest(Poison )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Nine Inch Nails )">checkSearchYandexTest(Nine Inch Nails )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Megadeth)">checkSearchYandexTest(Megadeth)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Down)">checkSearchYandexTest(Down)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Shadowfalls)">checkSearchYandexTest(Shadowfalls)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Anthrax)">checkSearchYandexTest(Anthrax)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Pantera )">checkSearchYandexTest(Pantera )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Lamb of God)">checkSearchYandexTest(Lamb of God)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Jimi Hendrix)">checkSearchYandexTest(Jimi Hendrix)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(White Zombie)">checkSearchYandexTest(White Zombie)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Killswitch Engage)">checkSearchYandexTest(Killswitch Engage)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Deftones)">checkSearchYandexTest(Deftones)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Slipknot )">checkSearchYandexTest(Slipknot )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.github.senin24.selenidegridpoc.test.YandexSelenideTest" hash-for-method="checkSearchYandexTest(Soudgarden)">checkSearchYandexTest(Soudgarden)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.github.senin24.selenidegridpoc.test.YandexSelenideTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Guns &#039;n&#039; Roses )">
+                  </a> <!-- checkSearchYandexTest(Guns 'n' Roses ) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Guns 'n' Roses )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Meshuggah)">
+                  </a> <!-- checkSearchYandexTest(Meshuggah) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Meshuggah)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Korn )">
+                  </a> <!-- checkSearchYandexTest(Korn ) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Korn )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Rage Against The Machine)">
+                  </a> <!-- checkSearchYandexTest(Rage Against The Machine) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Rage Against The Machine)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Linkin Park )">
+                  </a> <!-- checkSearchYandexTest(Linkin Park ) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Linkin Park )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Janes Addiction)">
+                  </a> <!-- checkSearchYandexTest(Janes Addiction) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Janes Addiction)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Ted Nugent)">
+                  </a> <!-- checkSearchYandexTest(Ted Nugent) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Ted Nugent)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Hate Breed)">
+                  </a> <!-- checkSearchYandexTest(Hate Breed) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Hate Breed)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Bon Jovi )">
+                  </a> <!-- checkSearchYandexTest(Bon Jovi ) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Bon Jovi )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Def Leppard)">
+                  </a> <!-- checkSearchYandexTest(Def Leppard) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Def Leppard)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Evanescence )">
+                  </a> <!-- checkSearchYandexTest(Evanescence ) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Evanescence )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Ratt)">
+                  </a> <!-- checkSearchYandexTest(Ratt) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Ratt)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Limp Bizkit)">
+                  </a> <!-- checkSearchYandexTest(Limp Bizkit) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Limp Bizkit)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Murderdolls)">
+                  </a> <!-- checkSearchYandexTest(Murderdolls) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Murderdolls)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(KISS)">
+                  </a> <!-- checkSearchYandexTest(KISS) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(KISS)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Disturbed)">
+                  </a> <!-- checkSearchYandexTest(Disturbed) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Disturbed)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Velvet Revolver)">
+                  </a> <!-- checkSearchYandexTest(Velvet Revolver) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Velvet Revolver)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Audioslave)">
+                  </a> <!-- checkSearchYandexTest(Audioslave) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Audioslave)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Metallica)">
+                  </a> <!-- checkSearchYandexTest(Metallica) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Metallica)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Ozzy Osbourne)">
+                  </a> <!-- checkSearchYandexTest(Ozzy Osbourne) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Ozzy Osbourne)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Alice Cooper )">
+                  </a> <!-- checkSearchYandexTest(Alice Cooper ) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Alice Cooper )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Iron Maiden )">
+                  </a> <!-- checkSearchYandexTest(Iron Maiden ) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Iron Maiden )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Avenged Sevenfold)">
+                  </a> <!-- checkSearchYandexTest(Avenged Sevenfold) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Avenged Sevenfold)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Black Label Society)">
+                  </a> <!-- checkSearchYandexTest(Black Label Society) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Black Label Society)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Scorpions)">
+                  </a> <!-- checkSearchYandexTest(Scorpions) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Scorpions)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Tool)">
+                  </a> <!-- checkSearchYandexTest(Tool) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Tool)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(AFI)">
+                  </a> <!-- checkSearchYandexTest(AFI) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(AFI)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Lacuna Coil)">
+                  </a> <!-- checkSearchYandexTest(Lacuna Coil) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Lacuna Coil)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Krokus)">
+                  </a> <!-- checkSearchYandexTest(Krokus) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Krokus)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Lordi)">
+                  </a> <!-- checkSearchYandexTest(Lordi) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Lordi)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(A Perfect Circle)">
+                  </a> <!-- checkSearchYandexTest(A Perfect Circle) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(A Perfect Circle)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Skid Row)">
+                  </a> <!-- checkSearchYandexTest(Skid Row) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Skid Row)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Heaven &amp; Hell)">
+                  </a> <!-- checkSearchYandexTest(Heaven & Hell) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Heaven & Hell)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(AC/DC )">
+                  </a> <!-- checkSearchYandexTest(AC/DC ) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(AC/DC )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Stone Sour)">
+                  </a> <!-- checkSearchYandexTest(Stone Sour) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Stone Sour)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Sevendust)">
+                  </a> <!-- checkSearchYandexTest(Sevendust) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Sevendust)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Queen)">
+                  </a> <!-- checkSearchYandexTest(Queen) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Queen)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Dio)">
+                  </a> <!-- checkSearchYandexTest(Dio) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Dio)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Saliva)">
+                  </a> <!-- checkSearchYandexTest(Saliva) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Saliva)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Marilyn Manson)">
+                  </a> <!-- checkSearchYandexTest(Marilyn Manson) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Marilyn Manson)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Mushroomhead)">
+                  </a> <!-- checkSearchYandexTest(Mushroomhead) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Mushroomhead)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Wolfmother)">
+                  </a> <!-- checkSearchYandexTest(Wolfmother) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Wolfmother)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Queensryche )">
+                  </a> <!-- checkSearchYandexTest(Queensryche ) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Queensryche )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Twisted Sister)">
+                  </a> <!-- checkSearchYandexTest(Twisted Sister) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Twisted Sister)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Slayer)">
+                  </a> <!-- checkSearchYandexTest(Slayer) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Slayer)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Rush )">
+                  </a> <!-- checkSearchYandexTest(Rush ) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Rush )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Godsmack)">
+                  </a> <!-- checkSearchYandexTest(Godsmack) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Godsmack)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Led Zepplin )">
+                  </a> <!-- checkSearchYandexTest(Led Zepplin ) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Led Zepplin )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(ZZ Top )">
+                  </a> <!-- checkSearchYandexTest(ZZ Top ) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(ZZ Top )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Red Hot Chili Peppers )">
+                  </a> <!-- checkSearchYandexTest(Red Hot Chili Peppers ) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Red Hot Chili Peppers )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(System Of A Down )">
+                  </a> <!-- checkSearchYandexTest(System Of A Down ) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(System Of A Down )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(WASP )">
+                  </a> <!-- checkSearchYandexTest(WASP ) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(WASP )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Mastodon )">
+                  </a> <!-- checkSearchYandexTest(Mastodon ) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Mastodon )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Type O Negative)">
+                  </a> <!-- checkSearchYandexTest(Type O Negative) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Type O Negative)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Stone Temple Pilots)">
+                  </a> <!-- checkSearchYandexTest(Stone Temple Pilots) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Stone Temple Pilots)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Mercyful Fate)">
+                  </a> <!-- checkSearchYandexTest(Mercyful Fate) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Mercyful Fate)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(P O D)">
+                  </a> <!-- checkSearchYandexTest(P O D) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(P O D)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Staind )">
+                  </a> <!-- checkSearchYandexTest(Staind ) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Staind )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Quiet Riot)">
+                  </a> <!-- checkSearchYandexTest(Quiet Riot) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Quiet Riot)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Van Halen )">
+                  </a> <!-- checkSearchYandexTest(Van Halen ) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Van Halen )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Cream)">
+                  </a> <!-- checkSearchYandexTest(Cream) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Cream)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Deep Purple)">
+                  </a> <!-- checkSearchYandexTest(Deep Purple) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Deep Purple)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Dragonforce)">
+                  </a> <!-- checkSearchYandexTest(Dragonforce) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Dragonforce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Motorhead )">
+                  </a> <!-- checkSearchYandexTest(Motorhead ) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Motorhead )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Nirvana)">
+                  </a> <!-- checkSearchYandexTest(Nirvana) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Nirvana)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Machine head)">
+                  </a> <!-- checkSearchYandexTest(Machine head) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Machine head)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Judas Priest)">
+                  </a> <!-- checkSearchYandexTest(Judas Priest) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Judas Priest)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(The Darkness )">
+                  </a> <!-- checkSearchYandexTest(The Darkness ) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(The Darkness )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Manowar)">
+                  </a> <!-- checkSearchYandexTest(Manowar) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Manowar)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Thin Lizzy)">
+                  </a> <!-- checkSearchYandexTest(Thin Lizzy) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Thin Lizzy)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Dokken)">
+                  </a> <!-- checkSearchYandexTest(Dokken) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Dokken)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Black Sabbath)">
+                  </a> <!-- checkSearchYandexTest(Black Sabbath) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Black Sabbath)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Mudvayne)">
+                  </a> <!-- checkSearchYandexTest(Mudvayne) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Mudvayne)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Alice In Chains)">
+                  </a> <!-- checkSearchYandexTest(Alice In Chains) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Alice In Chains)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Motley Crue)">
+                  </a> <!-- checkSearchYandexTest(Motley Crue) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Motley Crue)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Rolling Stones )">
+                  </a> <!-- checkSearchYandexTest(Rolling Stones ) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Rolling Stones )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(The Who )">
+                  </a> <!-- checkSearchYandexTest(The Who ) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(The Who )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Cradle Of Filth)">
+                  </a> <!-- checkSearchYandexTest(Cradle Of Filth) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Cradle Of Filth)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Pearl Jam)">
+                  </a> <!-- checkSearchYandexTest(Pearl Jam) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Pearl Jam)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Whitesnake)">
+                  </a> <!-- checkSearchYandexTest(Whitesnake) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Whitesnake)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Angel )">
+                  </a> <!-- checkSearchYandexTest(Angel ) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Angel )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Rammstein)">
+                  </a> <!-- checkSearchYandexTest(Rammstein) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Rammstein)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(The Cult )">
+                  </a> <!-- checkSearchYandexTest(The Cult ) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(The Cult )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Aerosmith)">
+                  </a> <!-- checkSearchYandexTest(Aerosmith) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Aerosmith)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Pink Floyd )">
+                  </a> <!-- checkSearchYandexTest(Pink Floyd ) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Pink Floyd )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Poison )">
+                  </a> <!-- checkSearchYandexTest(Poison ) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Poison )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Nine Inch Nails )">
+                  </a> <!-- checkSearchYandexTest(Nine Inch Nails ) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Nine Inch Nails )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Megadeth)">
+                  </a> <!-- checkSearchYandexTest(Megadeth) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Megadeth)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Down)">
+                  </a> <!-- checkSearchYandexTest(Down) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Down)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Shadowfalls)">
+                  </a> <!-- checkSearchYandexTest(Shadowfalls) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Shadowfalls)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Anthrax)">
+                  </a> <!-- checkSearchYandexTest(Anthrax) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Anthrax)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Pantera )">
+                  </a> <!-- checkSearchYandexTest(Pantera ) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Pantera )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Lamb of God)">
+                  </a> <!-- checkSearchYandexTest(Lamb of God) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Lamb of God)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Jimi Hendrix)">
+                  </a> <!-- checkSearchYandexTest(Jimi Hendrix) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Jimi Hendrix)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(White Zombie)">
+                  </a> <!-- checkSearchYandexTest(White Zombie) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(White Zombie)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Killswitch Engage)">
+                  </a> <!-- checkSearchYandexTest(Killswitch Engage) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Killswitch Engage)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Deftones)">
+                  </a> <!-- checkSearchYandexTest(Deftones) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Deftones)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Slipknot )">
+                  </a> <!-- checkSearchYandexTest(Slipknot ) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Slipknot )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchYandexTest(Soudgarden)">
+                  </a> <!-- checkSearchYandexTest(Soudgarden) -->
+                  <span class="method-name">checkSearchYandexTest</span>
+                  <span class="parameters">(Soudgarden)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\DATA\git\SeleniumPOC\src\test\resources\com\github\senin24\selenidegridpoc\testng_parallel.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot; parallel=&quot;tests&quot; data-provider-thread-count=&quot;5&quot;&gt;
+  &lt;test name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.github.senin24.selenidegridpoc.test.YandexSelenideTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(99);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'checkSearchYandexTest')
+data.setCell(0, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(0, 3, 12646);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'checkSearchYandexTest')
+data.setCell(1, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(1, 3, 12130);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'checkSearchYandexTest')
+data.setCell(2, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(2, 3, 11491);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'checkSearchYandexTest')
+data.setCell(3, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(3, 3, 11184);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'checkSearchYandexTest')
+data.setCell(4, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(4, 3, 10832);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'checkSearchYandexTest')
+data.setCell(5, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(5, 3, 10679);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'checkSearchYandexTest')
+data.setCell(6, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(6, 3, 10052);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'checkSearchYandexTest')
+data.setCell(7, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(7, 3, 10035);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'checkSearchYandexTest')
+data.setCell(8, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(8, 3, 9880);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'checkSearchYandexTest')
+data.setCell(9, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(9, 3, 9707);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'checkSearchYandexTest')
+data.setCell(10, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(10, 3, 9674);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'checkSearchYandexTest')
+data.setCell(11, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(11, 3, 9622);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'checkSearchYandexTest')
+data.setCell(12, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(12, 3, 9561);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'checkSearchYandexTest')
+data.setCell(13, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(13, 3, 9519);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'checkSearchYandexTest')
+data.setCell(14, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(14, 3, 9496);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'checkSearchYandexTest')
+data.setCell(15, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(15, 3, 9475);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'checkSearchYandexTest')
+data.setCell(16, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(16, 3, 9387);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'checkSearchYandexTest')
+data.setCell(17, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(17, 3, 9383);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'checkSearchYandexTest')
+data.setCell(18, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(18, 3, 9348);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'checkSearchYandexTest')
+data.setCell(19, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(19, 3, 9344);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'checkSearchYandexTest')
+data.setCell(20, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(20, 3, 9299);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'checkSearchYandexTest')
+data.setCell(21, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(21, 3, 9276);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'checkSearchYandexTest')
+data.setCell(22, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(22, 3, 9249);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'checkSearchYandexTest')
+data.setCell(23, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(23, 3, 9244);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'checkSearchYandexTest')
+data.setCell(24, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(24, 3, 9244);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'checkSearchYandexTest')
+data.setCell(25, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(25, 3, 9241);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'checkSearchYandexTest')
+data.setCell(26, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(26, 3, 9190);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'checkSearchYandexTest')
+data.setCell(27, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(27, 3, 9184);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'checkSearchYandexTest')
+data.setCell(28, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(28, 3, 9149);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'checkSearchYandexTest')
+data.setCell(29, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(29, 3, 9115);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'checkSearchYandexTest')
+data.setCell(30, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(30, 3, 9110);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'checkSearchYandexTest')
+data.setCell(31, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(31, 3, 9082);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'checkSearchYandexTest')
+data.setCell(32, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(32, 3, 9048);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'checkSearchYandexTest')
+data.setCell(33, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(33, 3, 9009);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'checkSearchYandexTest')
+data.setCell(34, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(34, 3, 8988);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'checkSearchYandexTest')
+data.setCell(35, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(35, 3, 8954);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'checkSearchYandexTest')
+data.setCell(36, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(36, 3, 8952);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'checkSearchYandexTest')
+data.setCell(37, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(37, 3, 8948);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'checkSearchYandexTest')
+data.setCell(38, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(38, 3, 8919);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'checkSearchYandexTest')
+data.setCell(39, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(39, 3, 8880);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'checkSearchYandexTest')
+data.setCell(40, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(40, 3, 8871);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'checkSearchYandexTest')
+data.setCell(41, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(41, 3, 8868);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'checkSearchYandexTest')
+data.setCell(42, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(42, 3, 8806);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'checkSearchYandexTest')
+data.setCell(43, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(43, 3, 8789);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'checkSearchYandexTest')
+data.setCell(44, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(44, 3, 8784);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'checkSearchYandexTest')
+data.setCell(45, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(45, 3, 8777);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'checkSearchYandexTest')
+data.setCell(46, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(46, 3, 8762);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'checkSearchYandexTest')
+data.setCell(47, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(47, 3, 8725);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'checkSearchYandexTest')
+data.setCell(48, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(48, 3, 8723);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'checkSearchYandexTest')
+data.setCell(49, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(49, 3, 8717);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'checkSearchYandexTest')
+data.setCell(50, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(50, 3, 8689);
+data.setCell(51, 0, 51)
+data.setCell(51, 1, 'checkSearchYandexTest')
+data.setCell(51, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(51, 3, 8660);
+data.setCell(52, 0, 52)
+data.setCell(52, 1, 'checkSearchYandexTest')
+data.setCell(52, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(52, 3, 8628);
+data.setCell(53, 0, 53)
+data.setCell(53, 1, 'checkSearchYandexTest')
+data.setCell(53, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(53, 3, 8624);
+data.setCell(54, 0, 54)
+data.setCell(54, 1, 'checkSearchYandexTest')
+data.setCell(54, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(54, 3, 8615);
+data.setCell(55, 0, 55)
+data.setCell(55, 1, 'checkSearchYandexTest')
+data.setCell(55, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(55, 3, 8540);
+data.setCell(56, 0, 56)
+data.setCell(56, 1, 'checkSearchYandexTest')
+data.setCell(56, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(56, 3, 8512);
+data.setCell(57, 0, 57)
+data.setCell(57, 1, 'checkSearchYandexTest')
+data.setCell(57, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(57, 3, 8508);
+data.setCell(58, 0, 58)
+data.setCell(58, 1, 'checkSearchYandexTest')
+data.setCell(58, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(58, 3, 8489);
+data.setCell(59, 0, 59)
+data.setCell(59, 1, 'checkSearchYandexTest')
+data.setCell(59, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(59, 3, 8463);
+data.setCell(60, 0, 60)
+data.setCell(60, 1, 'checkSearchYandexTest')
+data.setCell(60, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(60, 3, 8457);
+data.setCell(61, 0, 61)
+data.setCell(61, 1, 'checkSearchYandexTest')
+data.setCell(61, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(61, 3, 8436);
+data.setCell(62, 0, 62)
+data.setCell(62, 1, 'checkSearchYandexTest')
+data.setCell(62, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(62, 3, 8429);
+data.setCell(63, 0, 63)
+data.setCell(63, 1, 'checkSearchYandexTest')
+data.setCell(63, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(63, 3, 8375);
+data.setCell(64, 0, 64)
+data.setCell(64, 1, 'checkSearchYandexTest')
+data.setCell(64, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(64, 3, 8358);
+data.setCell(65, 0, 65)
+data.setCell(65, 1, 'checkSearchYandexTest')
+data.setCell(65, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(65, 3, 8320);
+data.setCell(66, 0, 66)
+data.setCell(66, 1, 'checkSearchYandexTest')
+data.setCell(66, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(66, 3, 8294);
+data.setCell(67, 0, 67)
+data.setCell(67, 1, 'checkSearchYandexTest')
+data.setCell(67, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(67, 3, 8252);
+data.setCell(68, 0, 68)
+data.setCell(68, 1, 'checkSearchYandexTest')
+data.setCell(68, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(68, 3, 8207);
+data.setCell(69, 0, 69)
+data.setCell(69, 1, 'checkSearchYandexTest')
+data.setCell(69, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(69, 3, 8203);
+data.setCell(70, 0, 70)
+data.setCell(70, 1, 'checkSearchYandexTest')
+data.setCell(70, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(70, 3, 8182);
+data.setCell(71, 0, 71)
+data.setCell(71, 1, 'checkSearchYandexTest')
+data.setCell(71, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(71, 3, 8181);
+data.setCell(72, 0, 72)
+data.setCell(72, 1, 'checkSearchYandexTest')
+data.setCell(72, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(72, 3, 8157);
+data.setCell(73, 0, 73)
+data.setCell(73, 1, 'checkSearchYandexTest')
+data.setCell(73, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(73, 3, 8155);
+data.setCell(74, 0, 74)
+data.setCell(74, 1, 'checkSearchYandexTest')
+data.setCell(74, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(74, 3, 8138);
+data.setCell(75, 0, 75)
+data.setCell(75, 1, 'checkSearchYandexTest')
+data.setCell(75, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(75, 3, 8136);
+data.setCell(76, 0, 76)
+data.setCell(76, 1, 'checkSearchYandexTest')
+data.setCell(76, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(76, 3, 8117);
+data.setCell(77, 0, 77)
+data.setCell(77, 1, 'checkSearchYandexTest')
+data.setCell(77, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(77, 3, 8114);
+data.setCell(78, 0, 78)
+data.setCell(78, 1, 'checkSearchYandexTest')
+data.setCell(78, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(78, 3, 8070);
+data.setCell(79, 0, 79)
+data.setCell(79, 1, 'checkSearchYandexTest')
+data.setCell(79, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(79, 3, 8048);
+data.setCell(80, 0, 80)
+data.setCell(80, 1, 'checkSearchYandexTest')
+data.setCell(80, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(80, 3, 8035);
+data.setCell(81, 0, 81)
+data.setCell(81, 1, 'checkSearchYandexTest')
+data.setCell(81, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(81, 3, 8027);
+data.setCell(82, 0, 82)
+data.setCell(82, 1, 'checkSearchYandexTest')
+data.setCell(82, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(82, 3, 7966);
+data.setCell(83, 0, 83)
+data.setCell(83, 1, 'checkSearchYandexTest')
+data.setCell(83, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(83, 3, 7909);
+data.setCell(84, 0, 84)
+data.setCell(84, 1, 'checkSearchYandexTest')
+data.setCell(84, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(84, 3, 7871);
+data.setCell(85, 0, 85)
+data.setCell(85, 1, 'checkSearchYandexTest')
+data.setCell(85, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(85, 3, 7807);
+data.setCell(86, 0, 86)
+data.setCell(86, 1, 'checkSearchYandexTest')
+data.setCell(86, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(86, 3, 7795);
+data.setCell(87, 0, 87)
+data.setCell(87, 1, 'checkSearchYandexTest')
+data.setCell(87, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(87, 3, 7761);
+data.setCell(88, 0, 88)
+data.setCell(88, 1, 'checkSearchYandexTest')
+data.setCell(88, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(88, 3, 7687);
+data.setCell(89, 0, 89)
+data.setCell(89, 1, 'checkSearchYandexTest')
+data.setCell(89, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(89, 3, 7684);
+data.setCell(90, 0, 90)
+data.setCell(90, 1, 'checkSearchYandexTest')
+data.setCell(90, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(90, 3, 7677);
+data.setCell(91, 0, 91)
+data.setCell(91, 1, 'checkSearchYandexTest')
+data.setCell(91, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(91, 3, 7593);
+data.setCell(92, 0, 92)
+data.setCell(92, 1, 'checkSearchYandexTest')
+data.setCell(92, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(92, 3, 7445);
+data.setCell(93, 0, 93)
+data.setCell(93, 1, 'checkSearchYandexTest')
+data.setCell(93, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(93, 3, 7379);
+data.setCell(94, 0, 94)
+data.setCell(94, 1, 'checkSearchYandexTest')
+data.setCell(94, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(94, 3, 7352);
+data.setCell(95, 0, 95)
+data.setCell(95, 1, 'checkSearchYandexTest')
+data.setCell(95, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(95, 3, 7321);
+data.setCell(96, 0, 96)
+data.setCell(96, 1, 'checkSearchYandexTest')
+data.setCell(96, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(96, 3, 6911);
+data.setCell(97, 0, 97)
+data.setCell(97, 1, 'checkSearchYandexTest')
+data.setCell(97, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(97, 3, 6378);
+data.setCell(98, 0, 98)
+data.setCell(98, 1, 'checkSearchYandexTest')
+data.setCell(98, 2, 'com.github.senin24.selenidegridpoc.test.YandexSelenideTest')
+data.setCell(98, 3, 6043);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 14 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.github.senin24.selenidegridpoc.test.YandexSelenideTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Van Halen )</span>
+                <span class="method-start">16822 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Guns 'n' Roses )</span>
+                <span class="method-start">16885 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Queen)</span>
+                <span class="method-start">17712 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Led Zepplin )</span>
+                <span class="method-start">17888 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(KISS)</span>
+                <span class="method-start">18049 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">26207 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">26274 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">26728 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">26774 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">26826 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">27013 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">27382 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">27653 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">28569 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">28993 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Slipknot )</span>
+                <span class="method-start">30188 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(AC/DC )</span>
+                <span class="method-start">30781 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Metallica)</span>
+                <span class="method-start">31293 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Motley Crue)</span>
+                <span class="method-start">32039 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Marilyn Manson)</span>
+                <span class="method-start">33069 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">38326 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">39040 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">40282 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">40553 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">40671 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">40994 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">42022 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">42407 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Judas Priest)</span>
+                <span class="method-start">42615 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">43429 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">43796 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Black Sabbath)</span>
+                <span class="method-start">44186 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Aerosmith)</span>
+                <span class="method-start">44398 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Alice Cooper )</span>
+                <span class="method-start">45867 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Alice In Chains)</span>
+                <span class="method-start">47851 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">51240 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">51709 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">52370 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">52758 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">53961 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">54486 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">55145 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Jimi Hendrix)</span>
+                <span class="method-start">55255 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">55560 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Korn )</span>
+                <span class="method-start">55986 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">56637 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">57050 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Slayer)</span>
+                <span class="method-start">58525 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Scorpions)</span>
+                <span class="method-start">58855 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Stone Temple Pilots)</span>
+                <span class="method-start">60316 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">63859 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">64019 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">65012 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">65182 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">67320 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">67765 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">68023 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">68079 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">68453 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">68554 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Audioslave)</span>
+                <span class="method-start">68627 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Nirvana)</span>
+                <span class="method-start">68658 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Rolling Stones )</span>
+                <span class="method-start">72072 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Iron Maiden )</span>
+                <span class="method-start">72503 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Disturbed)</span>
+                <span class="method-start">72901 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">76306 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">76344 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">76793 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">76899 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Pantera )</span>
+                <span class="method-start">80278 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Deep Purple)</span>
+                <span class="method-start">80770 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">81318 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">81338 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">81619 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">81968 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">82074 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">82231 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Rage Against The Machine)</span>
+                <span class="method-start">86007 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(System Of A Down )</span>
+                <span class="method-start">87022 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">88074 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">88483 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">88798 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">89384 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Ozzy Osbourne)</span>
+                <span class="method-start">91426 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Tool)</span>
+                <span class="method-start">92119 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Motorhead )</span>
+                <span class="method-start">92651 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">94637 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">95143 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">96106 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">96477 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Queensryche )</span>
+                <span class="method-start">98779 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Def Leppard)</span>
+                <span class="method-start">100077 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">100903 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">101129 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">101338 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">101342 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">101580 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">101889 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Nine Inch Nails )</span>
+                <span class="method-start">104484 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">106133 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(WASP )</span>
+                <span class="method-start">106366 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">106556 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Rush )</span>
+                <span class="method-start">107054 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">108330 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">108838 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(The Who )</span>
+                <span class="method-start">109829 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Ted Nugent)</span>
+                <span class="method-start">112905 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">113366 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">113773 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">115545 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">115716 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">115981 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">116226 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(ZZ Top )</span>
+                <span class="method-start">117164 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">118699 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">119100 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Red Hot Chili Peppers )</span>
+                <span class="method-start">119523 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Pink Floyd )</span>
+                <span class="method-start">119642 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">121623 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">122050 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Mudvayne)</span>
+                <span class="method-start">123005 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Angel )</span>
+                <span class="method-start">125613 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">125706 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">126113 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">128139 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">128598 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">128729 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">129091 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(The Cult )</span>
+                <span class="method-start">129590 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">131164 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">131641 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Mercyful Fate)</span>
+                <span class="method-start">132453 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Godsmack)</span>
+                <span class="method-start">132864 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">133973 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">134425 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Staind )</span>
+                <span class="method-start">135252 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">138381 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Linkin Park )</span>
+                <span class="method-start">138539 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">138921 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">140831 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">141211 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">141565 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">141939 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Poison )</span>
+                <span class="method-start">142508 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">143409 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">143834 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(The Darkness )</span>
+                <span class="method-start">144506 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Evanescence )</span>
+                <span class="method-start">145149 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Bon Jovi )</span>
+                <span class="method-start">146925 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">147488 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">147922 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Mastodon )</span>
+                <span class="method-start">151697 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">152184 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">152599 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">153379 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">153787 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">154340 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">154768 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">155845 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">156264 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Dio)</span>
+                <span class="method-start">156733 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Velvet Revolver)</span>
+                <span class="method-start">157704 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Killswitch Engage)</span>
+                <span class="method-start">158686 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Lamb of God)</span>
+                <span class="method-start">160456 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">160747 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">161239 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Cream)</span>
+                <span class="method-start">165337 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">166356 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">166835 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">167742 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">168178 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">168206 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">168821 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">169699 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Twisted Sister)</span>
+                <span class="method-start">170742 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">170915 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Avenged Sevenfold)</span>
+                <span class="method-start">172331 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Saliva)</span>
+                <span class="method-start">173575 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">175390 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">175911 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Dragonforce)</span>
+                <span class="method-start">175965 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Thin Lizzy)</span>
+                <span class="method-start">180399 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">181928 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">182340 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">183164 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">183583 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">185067 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">185310 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">185871 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">185974 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(White Zombie)</span>
+                <span class="method-start">186256 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Megadeth)</span>
+                <span class="method-start">187327 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">188518 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">188942 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Limp Bizkit)</span>
+                <span class="method-start">189562 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Ratt)</span>
+                <span class="method-start">189692 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Whitesnake)</span>
+                <span class="method-start">192727 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">194396 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">194877 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">196513 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">196988 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">197883 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">198336 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Deftones)</span>
+                <span class="method-start">198740 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">198937 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">199377 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Wolfmother)</span>
+                <span class="method-start">200395 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">201022 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">201428 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Lacuna Coil)</span>
+                <span class="method-start">202417 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Heaven & Hell)</span>
+                <span class="method-start">203013 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Pearl Jam)</span>
+                <span class="method-start">205073 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">206790 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">207203 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">210276 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">210709 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(P O D)</span>
+                <span class="method-start">210917 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">211567 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">211740 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">211980 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">212144 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">213449 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">213876 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Anthrax)</span>
+                <span class="method-start">213881 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(AFI)</span>
+                <span class="method-start">215440 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Down)</span>
+                <span class="method-start">216091 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Stone Sour)</span>
+                <span class="method-start">217383 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">219033 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">219510 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">221569 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">221963 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Soudgarden)</span>
+                <span class="method-start">223074 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">224299 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">224893 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">224977 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Shadowfalls)</span>
+                <span class="method-start">225628 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">225670 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">227571 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">228128 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Manowar)</span>
+                <span class="method-start">229141 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Hate Breed)</span>
+                <span class="method-start">230278 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">231111 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">231556 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Quiet Riot)</span>
+                <span class="method-start">232036 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">234138 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">234601 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Janes Addiction)</span>
+                <span class="method-start">235055 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">237724 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">237919 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">238100 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">238336 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(A Perfect Circle)</span>
+                <span class="method-start">238509 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">240241 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">241287 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Machine head)</span>
+                <span class="method-start">242430 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Dokken)</span>
+                <span class="method-start">242670 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">243238 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">243715 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Black Label Society)</span>
+                <span class="method-start">244646 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">245832 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">246380 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Murderdolls)</span>
+                <span class="method-start">247827 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Skid Row)</span>
+                <span class="method-start">250161 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">251101 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">251553 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">252139 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">252544 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">252718 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">253260 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Krokus)</span>
+                <span class="method-start">255257 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Type O Negative)</span>
+                <span class="method-start">255778 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">256286 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Mushroomhead)</span>
+                <span class="method-start">256587 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">256680 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">257970 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">258358 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Sevendust)</span>
+                <span class="method-start">259836 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Rammstein)</span>
+                <span class="method-start">261762 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">264064 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">264455 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">265028 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">265248 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">265438 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome, https://yandex.ru)</span>
+                <span class="method-start">265773 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">267746 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Meshuggah)</span>
+                <span class="method-start">268551 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">269142 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Lordi)</span>
+                <span class="method-start">269309 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkSearchYandexTest(Cradle Of Filth)</span>
+                <span class="method-start">269825 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">275354 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">275464 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">276205 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

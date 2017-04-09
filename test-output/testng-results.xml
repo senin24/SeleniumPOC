@@ -1,0 +1,3082 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="99" passed="99">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="276812" started-at="2017-04-09T15:23:06Z" finished-at="2017-04-09T15:27:42Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="276812" started-at="2017-04-09T15:23:06Z" finished-at="2017-04-09T15:27:42Z">
+      <class name="com.github.senin24.selenidegridpoc.test.YandexSelenideTest">
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="16885" started-at="2017-04-09T18:23:06Z" finished-at="2017-04-09T18:23:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="17712" started-at="2017-04-09T18:23:06Z" finished-at="2017-04-09T18:23:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="18049" started-at="2017-04-09T18:23:06Z" finished-at="2017-04-09T18:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="17888" started-at="2017-04-09T18:23:06Z" finished-at="2017-04-09T18:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="16821" started-at="2017-04-09T18:23:06Z" finished-at="2017-04-09T18:23:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="9383" started-at="2017-04-09T18:23:22Z" data-provider="getText" finished-at="2017-04-09T18:23:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Van Halen ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="9387" started-at="2017-04-09T18:23:23Z" data-provider="getText" finished-at="2017-04-09T18:23:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Guns 'n' Roses ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="9299" started-at="2017-04-09T18:23:23Z" data-provider="getText" finished-at="2017-04-09T18:23:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Queen]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="10679" started-at="2017-04-09T18:23:24Z" data-provider="getText" finished-at="2017-04-09T18:23:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Led Zepplin ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="8723" started-at="2017-04-09T18:23:24Z" data-provider="getText" finished-at="2017-04-09T18:23:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[KISS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="520" started-at="2017-04-09T18:23:32Z" finished-at="2017-04-09T18:23:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="551" started-at="2017-04-09T18:23:32Z" finished-at="2017-04-09T18:23:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="3460" started-at="2017-04-09T18:23:32Z" finished-at="2017-04-09T18:23:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="608" started-at="2017-04-09T18:23:32Z" finished-at="2017-04-09T18:23:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="3955" started-at="2017-04-09T18:23:33Z" finished-at="2017-04-09T18:23:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="639" started-at="2017-04-09T18:23:33Z" finished-at="2017-04-09T18:23:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="3911" started-at="2017-04-09T18:23:33Z" finished-at="2017-04-09T18:23:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="4386" started-at="2017-04-09T18:23:33Z" finished-at="2017-04-09T18:23:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="423" started-at="2017-04-09T18:23:34Z" finished-at="2017-04-09T18:23:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="4076" started-at="2017-04-09T18:23:35Z" finished-at="2017-04-09T18:23:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="8136" started-at="2017-04-09T18:23:36Z" data-provider="getText" finished-at="2017-04-09T18:23:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Slipknot ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="12646" started-at="2017-04-09T18:23:36Z" data-provider="getText" finished-at="2017-04-09T18:23:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AC/DC ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="8988" started-at="2017-04-09T18:23:37Z" data-provider="getText" finished-at="2017-04-09T18:23:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Metallica]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="8512" started-at="2017-04-09T18:23:38Z" data-provider="getText" finished-at="2017-04-09T18:23:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Motley Crue]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="8952" started-at="2017-04-09T18:23:39Z" data-provider="getText" finished-at="2017-04-09T18:23:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Marilyn Manson]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="714" started-at="2017-04-09T18:23:44Z" finished-at="2017-04-09T18:23:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="3575" started-at="2017-04-09T18:23:45Z" finished-at="2017-04-09T18:23:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="389" started-at="2017-04-09T18:23:46Z" finished-at="2017-04-09T18:23:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="441" started-at="2017-04-09T18:23:46Z" finished-at="2017-04-09T18:23:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="3515" started-at="2017-04-09T18:23:46Z" finished-at="2017-04-09T18:23:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="3404" started-at="2017-04-09T18:23:47Z" finished-at="2017-04-09T18:23:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="385" started-at="2017-04-09T18:23:48Z" finished-at="2017-04-09T18:23:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="3459" started-at="2017-04-09T18:23:48Z" finished-at="2017-04-09T18:23:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="8624" started-at="2017-04-09T18:23:48Z" data-provider="getText" finished-at="2017-04-09T18:23:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Judas Priest]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="367" started-at="2017-04-09T18:23:49Z" finished-at="2017-04-09T18:23:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="4055" started-at="2017-04-09T18:23:49Z" finished-at="2017-04-09T18:23:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="8182" started-at="2017-04-09T18:23:50Z" data-provider="getText" finished-at="2017-04-09T18:23:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Black Sabbath]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="9561" started-at="2017-04-09T18:23:50Z" data-provider="getText" finished-at="2017-04-09T18:24:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Aerosmith]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="9276" started-at="2017-04-09T18:23:52Z" data-provider="getText" finished-at="2017-04-09T18:24:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Alice Cooper ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="8784" started-at="2017-04-09T18:23:54Z" data-provider="getText" finished-at="2017-04-09T18:24:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Alice In Chains]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="469" started-at="2017-04-09T18:23:57Z" finished-at="2017-04-09T18:23:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="3546" started-at="2017-04-09T18:23:57Z" finished-at="2017-04-09T18:24:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="387" started-at="2017-04-09T18:23:58Z" finished-at="2017-04-09T18:23:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="3228" started-at="2017-04-09T18:23:58Z" finished-at="2017-04-09T18:24:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="525" started-at="2017-04-09T18:24:00Z" finished-at="2017-04-09T18:24:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="4039" started-at="2017-04-09T18:24:00Z" finished-at="2017-04-09T18:24:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="414" started-at="2017-04-09T18:24:01Z" finished-at="2017-04-09T18:24:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="8762" started-at="2017-04-09T18:24:01Z" data-provider="getText" finished-at="2017-04-09T18:24:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jimi Hendrix]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="3295" started-at="2017-04-09T18:24:01Z" finished-at="2017-04-09T18:24:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="7871" started-at="2017-04-09T18:24:02Z" data-provider="getText" finished-at="2017-04-09T18:24:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Korn ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="413" started-at="2017-04-09T18:24:02Z" finished-at="2017-04-09T18:24:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="3266" started-at="2017-04-09T18:24:03Z" finished-at="2017-04-09T18:24:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="9496" started-at="2017-04-09T18:24:04Z" data-provider="getText" finished-at="2017-04-09T18:24:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Slayer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="8463" started-at="2017-04-09T18:24:05Z" data-provider="getText" finished-at="2017-04-09T18:24:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Scorpions]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="7761" started-at="2017-04-09T18:24:06Z" data-provider="getText" finished-at="2017-04-09T18:24:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Stone Temple Pilots]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="1323" started-at="2017-04-09T18:24:10Z" finished-at="2017-04-09T18:24:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="993" started-at="2017-04-09T18:24:10Z" finished-at="2017-04-09T18:24:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="3615" started-at="2017-04-09T18:24:11Z" finished-at="2017-04-09T18:24:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="3476" started-at="2017-04-09T18:24:11Z" finished-at="2017-04-09T18:24:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="445" started-at="2017-04-09T18:24:13Z" finished-at="2017-04-09T18:24:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="4307" started-at="2017-04-09T18:24:13Z" finished-at="2017-04-09T18:24:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="430" started-at="2017-04-09T18:24:14Z" finished-at="2017-04-09T18:24:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="474" started-at="2017-04-09T18:24:14Z" finished-at="2017-04-09T18:24:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="4050" started-at="2017-04-09T18:24:14Z" finished-at="2017-04-09T18:24:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="4347" started-at="2017-04-09T18:24:14Z" finished-at="2017-04-09T18:24:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="7677" started-at="2017-04-09T18:24:14Z" data-provider="getText" finished-at="2017-04-09T18:24:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Audioslave]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="7684" started-at="2017-04-09T18:24:14Z" data-provider="getText" finished-at="2017-04-09T18:24:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nirvana]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="9244" started-at="2017-04-09T18:24:18Z" data-provider="getText" finished-at="2017-04-09T18:24:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rolling Stones ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="9115" started-at="2017-04-09T18:24:18Z" data-provider="getText" finished-at="2017-04-09T18:24:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Iron Maiden ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="8436" started-at="2017-04-09T18:24:19Z" data-provider="getText" finished-at="2017-04-09T18:24:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Disturbed]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="487" started-at="2017-04-09T18:24:22Z" finished-at="2017-04-09T18:24:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="555" started-at="2017-04-09T18:24:22Z" finished-at="2017-04-09T18:24:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="3485" started-at="2017-04-09T18:24:22Z" finished-at="2017-04-09T18:24:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="3871" started-at="2017-04-09T18:24:23Z" finished-at="2017-04-09T18:24:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="7795" started-at="2017-04-09T18:24:26Z" data-provider="getText" finished-at="2017-04-09T18:24:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pantera ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="8027" started-at="2017-04-09T18:24:26Z" data-provider="getText" finished-at="2017-04-09T18:24:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Deep Purple]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="756" started-at="2017-04-09T18:24:27Z" finished-at="2017-04-09T18:24:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="630" started-at="2017-04-09T18:24:27Z" finished-at="2017-04-09T18:24:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="611" started-at="2017-04-09T18:24:27Z" finished-at="2017-04-09T18:24:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="4039" started-at="2017-04-09T18:24:28Z" finished-at="2017-04-09T18:24:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="9352" started-at="2017-04-09T18:24:28Z" finished-at="2017-04-09T18:24:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="4791" started-at="2017-04-09T18:24:28Z" finished-at="2017-04-09T18:24:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="8628" started-at="2017-04-09T18:24:32Z" data-provider="getText" finished-at="2017-04-09T18:24:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rage Against The Machine]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="9082" started-at="2017-04-09T18:24:33Z" data-provider="getText" finished-at="2017-04-09T18:24:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[System Of A Down ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="409" started-at="2017-04-09T18:24:34Z" finished-at="2017-04-09T18:24:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="3636" started-at="2017-04-09T18:24:34Z" finished-at="2017-04-09T18:24:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="586" started-at="2017-04-09T18:24:34Z" finished-at="2017-04-09T18:24:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="3267" started-at="2017-04-09T18:24:35Z" finished-at="2017-04-09T18:24:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="9475" started-at="2017-04-09T18:24:37Z" data-provider="getText" finished-at="2017-04-09T18:24:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ozzy Osbourne]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="9009" started-at="2017-04-09T18:24:38Z" data-provider="getText" finished-at="2017-04-09T18:24:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tool]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="8689" started-at="2017-04-09T18:24:38Z" data-provider="getText" finished-at="2017-04-09T18:24:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Motorhead ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="506" started-at="2017-04-09T18:24:40Z" finished-at="2017-04-09T18:24:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="3636" started-at="2017-04-09T18:24:41Z" finished-at="2017-04-09T18:24:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="371" started-at="2017-04-09T18:24:42Z" finished-at="2017-04-09T18:24:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="3600" started-at="2017-04-09T18:24:42Z" finished-at="2017-04-09T18:24:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="7352" started-at="2017-04-09T18:24:44Z" data-provider="getText" finished-at="2017-04-09T18:24:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Queensryche ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="8252" started-at="2017-04-09T18:24:46Z" data-provider="getText" finished-at="2017-04-09T18:24:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Def Leppard]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="435" started-at="2017-04-09T18:24:47Z" finished-at="2017-04-09T18:24:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="451" started-at="2017-04-09T18:24:47Z" finished-at="2017-04-09T18:24:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="3146" started-at="2017-04-09T18:24:47Z" finished-at="2017-04-09T18:24:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="546" started-at="2017-04-09T18:24:47Z" finished-at="2017-04-09T18:24:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="5474" started-at="2017-04-09T18:24:47Z" finished-at="2017-04-09T18:24:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="4477" started-at="2017-04-09T18:24:48Z" finished-at="2017-04-09T18:24:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="8880" started-at="2017-04-09T18:24:50Z" data-provider="getText" finished-at="2017-04-09T18:24:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nine Inch Nails ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="423" started-at="2017-04-09T18:24:52Z" finished-at="2017-04-09T18:24:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="9348" started-at="2017-04-09T18:24:52Z" data-provider="getText" finished-at="2017-04-09T18:25:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[WASP ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="3273" started-at="2017-04-09T18:24:52Z" finished-at="2017-04-09T18:24:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="8489" started-at="2017-04-09T18:24:53Z" data-provider="getText" finished-at="2017-04-09T18:25:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rush ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="508" started-at="2017-04-09T18:24:54Z" finished-at="2017-04-09T18:24:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="4067" started-at="2017-04-09T18:24:55Z" finished-at="2017-04-09T18:24:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="8868" started-at="2017-04-09T18:24:56Z" data-provider="getText" finished-at="2017-04-09T18:25:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[The Who ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="8717" started-at="2017-04-09T18:24:59Z" data-provider="getText" finished-at="2017-04-09T18:25:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ted Nugent]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="407" started-at="2017-04-09T18:24:59Z" finished-at="2017-04-09T18:24:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="3391" started-at="2017-04-09T18:24:59Z" finished-at="2017-04-09T18:25:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="436" started-at="2017-04-09T18:25:01Z" finished-at="2017-04-09T18:25:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="510" started-at="2017-04-09T18:25:01Z" finished-at="2017-04-09T18:25:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="3542" started-at="2017-04-09T18:25:02Z" finished-at="2017-04-09T18:25:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="3416" started-at="2017-04-09T18:25:02Z" finished-at="2017-04-09T18:25:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="8540" started-at="2017-04-09T18:25:03Z" data-provider="getText" finished-at="2017-04-09T18:25:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ZZ Top ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="401" started-at="2017-04-09T18:25:04Z" finished-at="2017-04-09T18:25:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="3905" started-at="2017-04-09T18:25:05Z" finished-at="2017-04-09T18:25:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="8615" started-at="2017-04-09T18:25:05Z" data-provider="getText" finished-at="2017-04-09T18:25:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Red Hot Chili Peppers ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="8954" started-at="2017-04-09T18:25:05Z" data-provider="getText" finished-at="2017-04-09T18:25:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pink Floyd ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="427" started-at="2017-04-09T18:25:07Z" finished-at="2017-04-09T18:25:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="3563" started-at="2017-04-09T18:25:08Z" finished-at="2017-04-09T18:25:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="8157" started-at="2017-04-09T18:25:09Z" data-provider="getText" finished-at="2017-04-09T18:25:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mudvayne]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="8358" started-at="2017-04-09T18:25:11Z" data-provider="getText" finished-at="2017-04-09T18:25:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Angel ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="407" started-at="2017-04-09T18:25:11Z" finished-at="2017-04-09T18:25:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="3477" started-at="2017-04-09T18:25:12Z" finished-at="2017-04-09T18:25:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="589" started-at="2017-04-09T18:25:14Z" finished-at="2017-04-09T18:25:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="493" started-at="2017-04-09T18:25:14Z" finished-at="2017-04-09T18:25:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="3724" started-at="2017-04-09T18:25:14Z" finished-at="2017-04-09T18:25:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="3773" started-at="2017-04-09T18:25:15Z" finished-at="2017-04-09T18:25:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="8789" started-at="2017-04-09T18:25:15Z" data-provider="getText" finished-at="2017-04-09T18:25:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[The Cult ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="476" started-at="2017-04-09T18:25:17Z" finished-at="2017-04-09T18:25:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="3611" started-at="2017-04-09T18:25:17Z" finished-at="2017-04-09T18:25:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="9110" started-at="2017-04-09T18:25:18Z" data-provider="getText" finished-at="2017-04-09T18:25:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mercyful Fate]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="7966" started-at="2017-04-09T18:25:19Z" data-provider="getText" finished-at="2017-04-09T18:25:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Godsmack]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="452" started-at="2017-04-09T18:25:20Z" finished-at="2017-04-09T18:25:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="4114" started-at="2017-04-09T18:25:20Z" finished-at="2017-04-09T18:25:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="8155" started-at="2017-04-09T18:25:21Z" data-provider="getText" finished-at="2017-04-09T18:25:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Staind ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="540" started-at="2017-04-09T18:25:24Z" finished-at="2017-04-09T18:25:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="8948" started-at="2017-04-09T18:25:24Z" data-provider="getText" finished-at="2017-04-09T18:25:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Linkin Park ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="3587" started-at="2017-04-09T18:25:25Z" finished-at="2017-04-09T18:25:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="380" started-at="2017-04-09T18:25:27Z" finished-at="2017-04-09T18:25:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="3294" started-at="2017-04-09T18:25:27Z" finished-at="2017-04-09T18:25:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="373" started-at="2017-04-09T18:25:27Z" finished-at="2017-04-09T18:25:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="3210" started-at="2017-04-09T18:25:28Z" finished-at="2017-04-09T18:25:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="9674" started-at="2017-04-09T18:25:28Z" data-provider="getText" finished-at="2017-04-09T18:25:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Poison ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="425" started-at="2017-04-09T18:25:29Z" finished-at="2017-04-09T18:25:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="3091" started-at="2017-04-09T18:25:30Z" finished-at="2017-04-09T18:25:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="8871" started-at="2017-04-09T18:25:30Z" data-provider="getText" finished-at="2017-04-09T18:25:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[The Darkness ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="9190" started-at="2017-04-09T18:25:31Z" data-provider="getText" finished-at="2017-04-09T18:25:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Evanescence ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="8919" started-at="2017-04-09T18:25:33Z" data-provider="getText" finished-at="2017-04-09T18:25:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bon Jovi ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="433" started-at="2017-04-09T18:25:33Z" finished-at="2017-04-09T18:25:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="3775" started-at="2017-04-09T18:25:34Z" finished-at="2017-04-09T18:25:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="9048" started-at="2017-04-09T18:25:37Z" data-provider="getText" finished-at="2017-04-09T18:25:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mastodon ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="415" started-at="2017-04-09T18:25:38Z" finished-at="2017-04-09T18:25:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="4134" started-at="2017-04-09T18:25:38Z" finished-at="2017-04-09T18:25:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="408" started-at="2017-04-09T18:25:39Z" finished-at="2017-04-09T18:25:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="3917" started-at="2017-04-09T18:25:39Z" finished-at="2017-04-09T18:25:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="428" started-at="2017-04-09T18:25:40Z" finished-at="2017-04-09T18:25:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="3918" started-at="2017-04-09T18:25:40Z" finished-at="2017-04-09T18:25:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="419" started-at="2017-04-09T18:25:42Z" finished-at="2017-04-09T18:25:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="4192" started-at="2017-04-09T18:25:42Z" finished-at="2017-04-09T18:25:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="9622" started-at="2017-04-09T18:25:42Z" data-provider="getText" finished-at="2017-04-09T18:25:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dio]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="10035" started-at="2017-04-09T18:25:43Z" data-provider="getText" finished-at="2017-04-09T18:25:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Velvet Revolver]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="9519" started-at="2017-04-09T18:25:44Z" data-provider="getText" finished-at="2017-04-09T18:25:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Killswitch Engage]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="9241" started-at="2017-04-09T18:25:46Z" data-provider="getText" finished-at="2017-04-09T18:25:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Lamb of God]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="491" started-at="2017-04-09T18:25:46Z" finished-at="2017-04-09T18:25:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="4098" started-at="2017-04-09T18:25:47Z" finished-at="2017-04-09T18:25:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="10052" started-at="2017-04-09T18:25:51Z" data-provider="getText" finished-at="2017-04-09T18:26:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Cream]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="479" started-at="2017-04-09T18:25:52Z" finished-at="2017-04-09T18:25:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="3907" started-at="2017-04-09T18:25:53Z" finished-at="2017-04-09T18:25:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="436" started-at="2017-04-09T18:25:53Z" finished-at="2017-04-09T18:25:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="4153" started-at="2017-04-09T18:25:54Z" finished-at="2017-04-09T18:25:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="615" started-at="2017-04-09T18:25:54Z" finished-at="2017-04-09T18:25:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="4754" started-at="2017-04-09T18:25:54Z" finished-at="2017-04-09T18:25:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="1216" started-at="2017-04-09T18:25:55Z" finished-at="2017-04-09T18:25:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="11184" started-at="2017-04-09T18:25:56Z" data-provider="getText" finished-at="2017-04-09T18:26:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Twisted Sister]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="5050" started-at="2017-04-09T18:25:57Z" finished-at="2017-04-09T18:26:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="10832" started-at="2017-04-09T18:25:58Z" data-provider="getText" finished-at="2017-04-09T18:26:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Avenged Sevenfold]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="11491" started-at="2017-04-09T18:25:59Z" data-provider="getText" finished-at="2017-04-09T18:26:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Saliva]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="521" started-at="2017-04-09T18:26:01Z" finished-at="2017-04-09T18:26:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="4488" started-at="2017-04-09T18:26:02Z" finished-at="2017-04-09T18:26:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="9344" started-at="2017-04-09T18:26:02Z" data-provider="getText" finished-at="2017-04-09T18:26:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dragonforce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="8117" started-at="2017-04-09T18:26:06Z" data-provider="getText" finished-at="2017-04-09T18:26:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Thin Lizzy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="412" started-at="2017-04-09T18:26:08Z" finished-at="2017-04-09T18:26:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="3916" started-at="2017-04-09T18:26:08Z" finished-at="2017-04-09T18:26:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="419" started-at="2017-04-09T18:26:09Z" finished-at="2017-04-09T18:26:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="3744" started-at="2017-04-09T18:26:09Z" finished-at="2017-04-09T18:26:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="804" started-at="2017-04-09T18:26:11Z" finished-at="2017-04-09T18:26:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="663" started-at="2017-04-09T18:26:11Z" finished-at="2017-04-09T18:26:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="3821" started-at="2017-04-09T18:26:12Z" finished-at="2017-04-09T18:26:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="3588" started-at="2017-04-09T18:26:12Z" finished-at="2017-04-09T18:26:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="8138" started-at="2017-04-09T18:26:12Z" data-provider="getText" finished-at="2017-04-09T18:26:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[White Zombie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="9184" started-at="2017-04-09T18:26:13Z" data-provider="getText" finished-at="2017-04-09T18:26:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Megadeth]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="423" started-at="2017-04-09T18:26:14Z" finished-at="2017-04-09T18:26:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="3785" started-at="2017-04-09T18:26:15Z" finished-at="2017-04-09T18:26:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="8320" started-at="2017-04-09T18:26:15Z" data-provider="getText" finished-at="2017-04-09T18:26:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Limp Bizkit]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="9244" started-at="2017-04-09T18:26:15Z" data-provider="getText" finished-at="2017-04-09T18:26:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ratt]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="8294" started-at="2017-04-09T18:26:18Z" data-provider="getText" finished-at="2017-04-09T18:26:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Whitesnake]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="481" started-at="2017-04-09T18:26:20Z" finished-at="2017-04-09T18:26:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="3863" started-at="2017-04-09T18:26:21Z" finished-at="2017-04-09T18:26:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="475" started-at="2017-04-09T18:26:22Z" finished-at="2017-04-09T18:26:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="3407" started-at="2017-04-09T18:26:23Z" finished-at="2017-04-09T18:26:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="453" started-at="2017-04-09T18:26:24Z" finished-at="2017-04-09T18:26:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="4081" started-at="2017-04-09T18:26:24Z" finished-at="2017-04-09T18:26:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="8048" started-at="2017-04-09T18:26:24Z" data-provider="getText" finished-at="2017-04-09T18:26:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Deftones]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="439" started-at="2017-04-09T18:26:25Z" finished-at="2017-04-09T18:26:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="3636" started-at="2017-04-09T18:26:25Z" finished-at="2017-04-09T18:26:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="9880" started-at="2017-04-09T18:26:26Z" data-provider="getText" finished-at="2017-04-09T18:26:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Wolfmother]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="406" started-at="2017-04-09T18:26:27Z" finished-at="2017-04-09T18:26:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="3645" started-at="2017-04-09T18:26:27Z" finished-at="2017-04-09T18:26:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="9149" started-at="2017-04-09T18:26:28Z" data-provider="getText" finished-at="2017-04-09T18:26:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Lacuna Coil]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="8725" started-at="2017-04-09T18:26:29Z" data-provider="getText" finished-at="2017-04-09T18:26:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Heaven & Hell]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="8375" started-at="2017-04-09T18:26:31Z" data-provider="getText" finished-at="2017-04-09T18:26:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pearl Jam]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="413" started-at="2017-04-09T18:26:32Z" finished-at="2017-04-09T18:26:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="3714" started-at="2017-04-09T18:26:33Z" finished-at="2017-04-09T18:26:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="433" started-at="2017-04-09T18:26:36Z" finished-at="2017-04-09T18:26:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="3172" started-at="2017-04-09T18:26:36Z" finished-at="2017-04-09T18:26:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="8114" started-at="2017-04-09T18:26:37Z" data-provider="getText" finished-at="2017-04-09T18:26:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[P O D]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="413" started-at="2017-04-09T18:26:37Z" finished-at="2017-04-09T18:26:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="404" started-at="2017-04-09T18:26:37Z" finished-at="2017-04-09T18:26:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="4111" started-at="2017-04-09T18:26:38Z" finished-at="2017-04-09T18:26:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="3296" started-at="2017-04-09T18:26:38Z" finished-at="2017-04-09T18:26:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="427" started-at="2017-04-09T18:26:39Z" finished-at="2017-04-09T18:26:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="3507" started-at="2017-04-09T18:26:40Z" finished-at="2017-04-09T18:26:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="7687" started-at="2017-04-09T18:26:40Z" data-provider="getText" finished-at="2017-04-09T18:26:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Anthrax]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="12130" started-at="2017-04-09T18:26:41Z" data-provider="getText" finished-at="2017-04-09T18:26:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AFI]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="8207" started-at="2017-04-09T18:26:42Z" data-provider="getText" finished-at="2017-04-09T18:26:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Down]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="7593" started-at="2017-04-09T18:26:43Z" data-provider="getText" finished-at="2017-04-09T18:26:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Stone Sour]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="477" started-at="2017-04-09T18:26:45Z" finished-at="2017-04-09T18:26:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="3564" started-at="2017-04-09T18:26:45Z" finished-at="2017-04-09T18:26:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="394" started-at="2017-04-09T18:26:47Z" finished-at="2017-04-09T18:26:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="3665" started-at="2017-04-09T18:26:48Z" finished-at="2017-04-09T18:26:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="8035" started-at="2017-04-09T18:26:49Z" data-provider="getText" finished-at="2017-04-09T18:26:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Soudgarden]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="594" started-at="2017-04-09T18:26:50Z" finished-at="2017-04-09T18:26:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="4248" started-at="2017-04-09T18:26:51Z" finished-at="2017-04-09T18:26:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="693" started-at="2017-04-09T18:26:51Z" finished-at="2017-04-09T18:26:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="8508" started-at="2017-04-09T18:26:51Z" data-provider="getText" finished-at="2017-04-09T18:27:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shadowfalls]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="4608" started-at="2017-04-09T18:26:51Z" finished-at="2017-04-09T18:26:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="556" started-at="2017-04-09T18:26:53Z" finished-at="2017-04-09T18:26:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="3908" started-at="2017-04-09T18:26:54Z" finished-at="2017-04-09T18:26:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="8777" started-at="2017-04-09T18:26:55Z" data-provider="getText" finished-at="2017-04-09T18:27:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Manowar]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="7445" started-at="2017-04-09T18:26:56Z" data-provider="getText" finished-at="2017-04-09T18:27:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hate Breed]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="445" started-at="2017-04-09T18:26:57Z" finished-at="2017-04-09T18:26:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="3499" started-at="2017-04-09T18:26:57Z" finished-at="2017-04-09T18:27:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="8203" started-at="2017-04-09T18:26:58Z" data-provider="getText" finished-at="2017-04-09T18:27:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Quiet Riot]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="463" started-at="2017-04-09T18:27:00Z" finished-at="2017-04-09T18:27:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="3908" started-at="2017-04-09T18:27:00Z" finished-at="2017-04-09T18:27:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="8181" started-at="2017-04-09T18:27:01Z" data-provider="getText" finished-at="2017-04-09T18:27:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Janes Addiction]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="376" started-at="2017-04-09T18:27:03Z" finished-at="2017-04-09T18:27:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="417" started-at="2017-04-09T18:27:04Z" finished-at="2017-04-09T18:27:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="4330" started-at="2017-04-09T18:27:04Z" finished-at="2017-04-09T18:27:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="4334" started-at="2017-04-09T18:27:04Z" finished-at="2017-04-09T18:27:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="7321" started-at="2017-04-09T18:27:04Z" data-provider="getText" finished-at="2017-04-09T18:27:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[A Perfect Circle]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="1046" started-at="2017-04-09T18:27:06Z" finished-at="2017-04-09T18:27:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="3359" started-at="2017-04-09T18:27:07Z" finished-at="2017-04-09T18:27:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="9707" started-at="2017-04-09T18:27:08Z" data-provider="getText" finished-at="2017-04-09T18:27:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Machine head]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="8429" started-at="2017-04-09T18:27:08Z" data-provider="getText" finished-at="2017-04-09T18:27:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dokken]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="477" started-at="2017-04-09T18:27:09Z" finished-at="2017-04-09T18:27:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="4112" started-at="2017-04-09T18:27:09Z" finished-at="2017-04-09T18:27:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="8070" started-at="2017-04-09T18:27:10Z" data-provider="getText" finished-at="2017-04-09T18:27:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Black Label Society]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="548" started-at="2017-04-09T18:27:12Z" finished-at="2017-04-09T18:27:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="3781" started-at="2017-04-09T18:27:12Z" finished-at="2017-04-09T18:27:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="8457" started-at="2017-04-09T18:27:14Z" data-provider="getText" finished-at="2017-04-09T18:27:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Murderdolls]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="7807" started-at="2017-04-09T18:27:16Z" data-provider="getText" finished-at="2017-04-09T18:27:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Skid Row]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="452" started-at="2017-04-09T18:27:17Z" finished-at="2017-04-09T18:27:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="3704" started-at="2017-04-09T18:27:17Z" finished-at="2017-04-09T18:27:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="405" started-at="2017-04-09T18:27:18Z" finished-at="2017-04-09T18:27:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="3234" started-at="2017-04-09T18:27:18Z" finished-at="2017-04-09T18:27:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="542" started-at="2017-04-09T18:27:18Z" finished-at="2017-04-09T18:27:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="3327" started-at="2017-04-09T18:27:19Z" finished-at="2017-04-09T18:27:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="8806" started-at="2017-04-09T18:27:21Z" data-provider="getText" finished-at="2017-04-09T18:27:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Krokus]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="9249" started-at="2017-04-09T18:27:21Z" data-provider="getText" finished-at="2017-04-09T18:27:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Type O Negative]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="394" started-at="2017-04-09T18:27:22Z" finished-at="2017-04-09T18:27:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="8660" started-at="2017-04-09T18:27:22Z" data-provider="getText" finished-at="2017-04-09T18:27:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mushroomhead]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="3156" started-at="2017-04-09T18:27:22Z" finished-at="2017-04-09T18:27:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="388" started-at="2017-04-09T18:27:24Z" finished-at="2017-04-09T18:27:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="3404" started-at="2017-04-09T18:27:24Z" finished-at="2017-04-09T18:27:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="7909" started-at="2017-04-09T18:27:26Z" data-provider="getText" finished-at="2017-04-09T18:27:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sevendust]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="7379" started-at="2017-04-09T18:27:27Z" data-provider="getText" finished-at="2017-04-09T18:27:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rammstein]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="391" started-at="2017-04-09T18:27:30Z" finished-at="2017-04-09T18:27:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="4095" started-at="2017-04-09T18:27:30Z" finished-at="2017-04-09T18:27:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="410" started-at="2017-04-09T18:27:31Z" finished-at="2017-04-09T18:27:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="525" started-at="2017-04-09T18:27:31Z" finished-at="2017-04-09T18:27:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="3871" started-at="2017-04-09T18:27:31Z" finished-at="2017-04-09T18:27:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="setDriver" is-config="true" duration-ms="4052" started-at="2017-04-09T18:27:31Z" finished-at="2017-04-09T18:27:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://yandex.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="525" started-at="2017-04-09T18:27:33Z" finished-at="2017-04-09T18:27:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="6911" started-at="2017-04-09T18:27:34Z" data-provider="getText" finished-at="2017-04-09T18:27:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Meshuggah]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="404" started-at="2017-04-09T18:27:35Z" finished-at="2017-04-09T18:27:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="6043" started-at="2017-04-09T18:27:35Z" data-provider="getText" finished-at="2017-04-09T18:27:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Lordi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="checkSearchYandexTest(java.lang.String)[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="checkSearchYandexTest" duration-ms="6378" started-at="2017-04-09T18:27:36Z" data-provider="getText" finished-at="2017-04-09T18:27:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Cradle Of Filth]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchYandexTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="473" started-at="2017-04-09T18:27:41Z" finished-at="2017-04-09T18:27:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="439" started-at="2017-04-09T18:27:41Z" finished-at="2017-04-09T18:27:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.senin24.selenidegridpoc.test.YandexSelenideTest@f2ff811]" name="tearDown" is-config="true" duration-ms="587" started-at="2017-04-09T18:27:42Z" finished-at="2017-04-09T18:27:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.github.senin24.selenidegridpoc.test.YandexSelenideTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
