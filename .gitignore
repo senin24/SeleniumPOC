@@ -1,7 +1,8 @@
-/target/
-/bin/
-/test-output/
-/.settings/
+target/
+build/
+bin/
+test-output/
+.settings/
 /app-info.log
 /*.classpath
 *.class
