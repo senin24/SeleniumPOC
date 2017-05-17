@@ -1,11 +1,15 @@
+.settings/
 target/
+test-output/
 build/
 bin/
-test-output/
-.settings/
+recources/
+
+
 /app-info.log
 /*.classpath
 *.class
+*.classpath
 # Package Files #
 *.jar
 *.war
