@@ -1,0 +1,20 @@
+.settings/
+target/
+test-output/
+build/
+bin/
+recources/
+
+
+/app-info.log
+/*.classpath
+*.class
+*.classpath
+# Package Files #
+*.jar
+*.war
+*.ear
+/TestSuiteFailed.xml
+/build/
+/.gradle/
+!/gradle/wrapper/gradle-wrapper.jar
