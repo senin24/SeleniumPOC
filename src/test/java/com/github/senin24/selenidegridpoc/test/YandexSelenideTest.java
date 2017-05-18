@@ -24,6 +24,7 @@ public class YandexSelenideTest extends BaseTest {
 	static final Logger LOG = LogManager.getLogger(YandexSelenideTest.class.getName());
 
 	String input = "//*[@id='text']",
+			//TODO remove cyrillic text from locator: 
 			next = "//div[@role='navigation']//a[text()='дальше']",
 			allLink = "//li[@data-cid]//h2/a";
 	
@@ -40,7 +41,7 @@ public class YandexSelenideTest extends BaseTest {
 		//TODO add check if next btn not exist in first page
 		$(By.xpath(next)).should(visible);
 
-		for (int i = 1; i < 3; i++) {
+		for (int i = 1; i < 5; i++) {
 			List<SelenideElement> allwww = $$(By.xpath(allLink));
 			LOG.info(String.format("Page number %s, find %s elements for '%s'", i, allwww.size(), text));
 			screenshot("text_page_" + i);
@@ -61,7 +62,7 @@ public class YandexSelenideTest extends BaseTest {
 			$(By.xpath(next)).click();
 		}
 
-		new Utils().saveToFile(text, www);
+		Utils.saveToFile(text, www);
 	}
 
 }
