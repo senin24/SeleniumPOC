@@ -28,14 +28,14 @@ public class Driver {
 	private static final boolean IS_USE_SELENIUM_GRID = Config.getInstance().isGridUsed();
 	private static final String WINDOWS_CHROME_DRIVER_PATH = "src/test/resources/drivers/chromedriver.exe";
 	private static final String WINDOWS_IE_DRIVER_PATH = "src/test/resources/drivers/IEDriverServer.exe";
-	
+
 	static final Logger LOG = LogManager.getLogger(Driver.class.getName());
-	
+
 	static ThreadLocal<WebDriver> CURRENT_DRIVER = new ThreadLocal<>();
 
 	public static void setDriver(String browser) {
 		Configuration.timeout = 8000;
-		Configuration.startMaximized=true;
+		Configuration.startMaximized = true;
 		if (IS_USE_SELENIUM_GRID) {
 			LOG.info("Selenium grid is ON");
 			setUpGrid(browser);
@@ -76,6 +76,9 @@ public class Driver {
 			FirefoxProfile fp = new FirefoxProfile();
 			dc.setCapability(FirefoxDriver.PROFILE, fp);
 			dc.setBrowserName(DesiredCapabilities.firefox().getBrowserName());
+			// FOR VNC - now work in only FF 46.0
+			dc.setVersion("46.0");
+			dc.setCapability("enableVNC", true);
 			break;
 
 		case IE:
@@ -99,8 +102,7 @@ public class Driver {
 			String url = "http://" + seleniumGridHubHostname + ":4444/wd/hub";
 			LOG.debug("URL = " + url);
 			WebDriverRunner.setWebDriver(new RemoteWebDriver(new URL(url), dc));
-		}
-		catch (Exception e) {
+		} catch (Exception e) {
 			throw new RuntimeException("HUB is not running on server '" + seleniumGridHubHostname + "'");
 		}
 	}
